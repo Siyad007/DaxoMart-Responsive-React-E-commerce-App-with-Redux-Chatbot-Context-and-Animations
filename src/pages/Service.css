@@ -1,0 +1,109 @@
+.service-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .service-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .service-header h1 {
+    font-size: 36px;
+    color: #acb410;
+    margin-bottom: 16px;
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  }
+  
+  .service-header p {
+    font-size: 18px;
+    color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+  
+  .service-card {
+    background: #110135;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .service-card h2 {
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #ffffff;
+  }
+  
+  .service-card p {
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .service-help {
+    text-align: center;
+    background: #050e21;
+    padding: 50px 30px;
+    border-radius: 8px;
+  }
+  
+  .service-help h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .service-help p {
+    color: #666;
+    margin-bottom: 24px;
+  }
+  
+  .contact-btn {
+    background: #4d7cfe;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-btn:hover {
+    background: #3a64d8;
+  }
+  
+  @media (max-width: 768px) {
+    .service-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .service-header h1 {
+      font-size: 30px;
+    }
+  }

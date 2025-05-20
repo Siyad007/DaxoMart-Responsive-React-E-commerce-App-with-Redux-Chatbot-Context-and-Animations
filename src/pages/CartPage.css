@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cart-header{
+    color: rgb(194, 191, 4);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Rubik Vinyl", system-ui;
+
+}
+.cart-para{
+    color: rgb(194, 191, 4);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 2px rgb(240, 0, 100);
+  ;
+}
+.cart-card{
+    border-radius: 15px;
+    background-color:#010a44;
+    box-shadow: 0 0 5px 5px rgb(120, 202, 137);
+}
+.cart-card img{
+    border-radius: 15px;
+    
+}
